@@ -5,7 +5,7 @@ Developer experience.
 - [x] Next.js
 - [x] TypeScript
 - [x] TailwindCSS
-- [ ] ESLint
+- [x] ESLint
 - [ ] Prettier
 - [x] Cssnano
 - [ ] Jest
