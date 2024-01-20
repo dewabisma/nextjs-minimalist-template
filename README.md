@@ -2,14 +2,14 @@
 
 Developer experience.
 
-1. Next.js
-2. TypeScript
-3. TailwindCSS
-4. ESLint
-5. Prettier
-6. Cssnano
-7. jest
-8. React Testing Library
-9. StoryBook
-10. Sitemap
-11. Bundle-analyzer
+- [x] Next.js
+- [x] TypeScript
+- [x] TailwindCSS
+- [ ] ESLint
+- [ ] Prettier
+- [x] Cssnano
+- [ ] Jest
+- [ ] React Testing Library
+- [x] StoryBook
+- [x] Sitemap
+- [x] Bundle-analyzer
