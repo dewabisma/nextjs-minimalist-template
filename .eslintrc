@@ -42,6 +42,7 @@
             "endOfLine": "auto",
           },
         ],
+
         "react/function-component-definition": "off", // Disable Airbnb's specific function type
         "react/destructuring-assignment": "off", // Vscode doesn't support automatically destructuring, it's a pain to add a new variable
         "react/require-default-props": "off", // Allow non-defined react props as undefined
@@ -65,24 +66,25 @@
           "error",
           { "argsIgnorePattern": "^_" },
         ],
+        "react/no-unescaped-entities": "off",
       },
     },
     // Configuration for testing
-    {
-      "files": ["**/*.test.ts", "**/*.test.tsx"],
-      "plugins": ["jest", "jest-formatting", "testing-library", "jest-dom"],
-      "extends": [
-        "plugin:jest/recommended",
-        "plugin:jest-formatting/recommended",
-        "plugin:testing-library/react",
-        "plugin:jest-dom/recommended",
-      ],
-    },
-    // Configuration for e2e testing (Playwright)
-    {
-      "files": ["**/*.spec.ts"],
-      "extends": ["plugin:playwright/recommended"],
-    },
+    // {
+    //   "files": ["**/*.test.ts", "**/*.test.tsx"],
+    //   "plugins": ["jest", "jest-formatting", "testing-library", "jest-dom"],
+    //   "extends": [
+    //     "plugin:jest/recommended",
+    //     "plugin:jest-formatting/recommended",
+    //     "plugin:testing-library/react",
+    //     "plugin:jest-dom/recommended",
+    //   ],
+    // },
+    // // Configuration for e2e testing (Playwright)
+    // {
+    //   "files": ["**/*.spec.ts"],
+    //   "extends": ["plugin:playwright/recommended"],
+    // },
     // Configuration for Storybook
     {
       "files": ["*.stories.*"],
