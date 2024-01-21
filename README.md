@@ -6,10 +6,10 @@ Developer experience.
 - [x] TypeScript
 - [x] TailwindCSS
 - [x] ESLint
-- [ ] Prettier
+- [x] Prettier
 - [x] Cssnano
-- [ ] Jest
-- [ ] React Testing Library
+- [x] Jest
+- [x] React Testing Library
 - [x] StoryBook
 - [x] Sitemap
 - [x] Bundle-analyzer
