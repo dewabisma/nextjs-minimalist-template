@@ -4,5 +4,5 @@ export const AppConfig = {
   site_name: 'Site name',
   title: 'Title',
   description: 'Description',
-  locale: 'en',
+  locale: 'en'
 };
