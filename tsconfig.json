@@ -39,15 +39,15 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"],
-      "@/public/*": ["./public/*"],
+      "@/public/*": ["./public/*"]
     },
 
     // Editor support
     "plugins": [
       {
-        "name": "next",
-      },
-    ],
+        "name": "next"
+      }
+    ]
   },
   "exclude": ["./out/**/*", "./node_modules/**/*"],
   "include": [
@@ -55,6 +55,6 @@
     "**/*.ts",
     "**/*.tsx",
     ".storybook/*.ts",
-    ".next/types/**/*.ts",
-  ],
+    ".next/types/**/*.ts"
+  ]
 }
